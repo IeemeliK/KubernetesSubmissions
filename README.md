@@ -1,2 +1,9 @@
 # KubernetesSubmissions
-MOOC kubernetes course submissions
+
+---
+
+## Exercises
+
+---
+
+### Chapter 2
