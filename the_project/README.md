@@ -7,4 +7,6 @@ Import image into k3d with `k3d image import todoapp`
 The port the server listens on can be changed by editing the
 PORT environment variable inside ./manifests/deployment.yaml
 
-Deploy with `kubectl apply -f manifests/deployment.yaml`
+Deploy app with `kubectl apply -f manifests/deployment.yaml`
+
+Deploy NodePort service with `kubectl apply -f manifests/service.yaml`
