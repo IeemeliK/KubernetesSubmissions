@@ -15,5 +15,8 @@ spec:
     spec:
       containers:
         - name: log-output
+          env:
+            - name: PORT
+              value: '3456'
           image: log-output-app:latest
           imagePullPolicy: Never
